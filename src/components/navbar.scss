@@ -1,0 +1,48 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 30%);
+  
+    &.scrolled {
+      background-color: var(--main-color);
+    }
+  }
+  
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    height: 70px;
+  }
+  
+  .navbar__container h1 {
+    color: red;
+    font-weight: 800;
+  }
+  
+  .navbar__container button {
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  #button_search {
+    background-color: white;
+    color: red;
+    margin-right: 1rem;
+  }
+  #button_login {
+    margin-right: 1rem;
+    border: 1px solid red;
+    background-color: transparent;
+    border-color: red;
+    color: red;
+  }
+  #button_register {
+    background-color: red;
+    color: white;
+  }
+  

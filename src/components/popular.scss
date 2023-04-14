@@ -1,0 +1,46 @@
+.popular_container {
+    margin: 3rem;
+  }
+  
+  .popular_title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .popular_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: red;
+    cursor: pointer;
+  }
+  .popular_wrapper {
+    margin-top: 2rem;
+  }
+  .popular_card img {
+    max-width: 25%;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
